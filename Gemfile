@@ -25,10 +25,27 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+gem 'dotenv-rails'
 gem 'devise'
-gem 'bootstrap', '~> 5.0.2'
+gem 'devise-jwt'
+gem 'bootstrap'
 gem 'jquery-rails'
+gem 'simple_form'
+
+# For obtain financial data
+gem 'dotenv'
+gem 'fintoc'
+gem 'sinatra'
+
+gem 'httparty'
+
+# For charts and graphs
+gem 'chartkick'
+gem 'groupdate'
+
+# For testing
+gem 'minitest'
+gem 'minitest-reporters'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
