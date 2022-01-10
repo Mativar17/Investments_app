@@ -30,7 +30,7 @@ gem 'devise'
 gem 'devise-jwt'
 gem 'bootstrap'
 gem 'jquery-rails'
-gem 'simple_form'
+gem 'simple_form', '~> 5.1'
 
 # For obtain financial data
 gem 'dotenv'
