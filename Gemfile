@@ -26,17 +26,23 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 gem 'dotenv-rails'
+
+# For authentication
 gem 'devise'
 gem 'devise-jwt'
-gem 'bootstrap'
+
+# For application frontend
+
 gem 'jquery-rails'
-gem 'simple_form', '~> 5.1'
+gem 'simple_form'
+gem 'tailwindcss-rails'
 
 # For obtain financial data
 gem 'dotenv'
 gem 'fintoc'
 gem 'sinatra'
 
+# For consume an external API 
 gem 'httparty'
 
 # For charts and graphs

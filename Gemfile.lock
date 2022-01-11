@@ -264,6 +264,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     tabulate (0.1.2)
+    tailwindcss-rails (2.0.4-x86_64-darwin)
+      railties (>= 6.0.0)
     thor (1.2.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -329,9 +331,10 @@ DEPENDENCIES
   rails (~> 6.1.4, >= 6.1.4.4)
   sass-rails (>= 6)
   selenium-webdriver
-  simple_form (~> 5.1)
+  simple_form
   sinatra
   spring
+  tailwindcss-rails
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
