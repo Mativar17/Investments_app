@@ -62,8 +62,8 @@ development:
 test:
   <<: *default
   database: Investment_app_test
-  user: <%= ENV['INVESTMENT_APP_DATABASE_DEV_USER'] %>
-  password: <%= ENV['INVESTMENT_APP_DATABASE_DEV_PASSWORD'] %>
+  user: postgres
+  password: hola123A
   host: localhost
   port: 5433
 
